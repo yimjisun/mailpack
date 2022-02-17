@@ -29,8 +29,12 @@ header ,section ,footer{
     }
     header .logo{
         width: 30vw;
-        margin-top: 0.8vw;
+        margin-top: 2vw;
         margin-left: 1vw;
+    }
+    header .logo img{
+        width:15vw;    
+        margin-top: 1vw;
     }
     header nav{
         width: 50%;
@@ -205,11 +209,15 @@ header ,section ,footer{
      }
      .s2 .product_title h1{
         font-size: 2.6vw;
+        color: #333;
+        text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
      }
      .s2 .product_title p{
-         font-size: 3vw;
+         font-size: 0.9vw;
          line-height: 3vw;
          font-weight: bold;
+         color: #333;
+        text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
      }
      .s2 .product .swiper-slide{
          position: relative;  /*자식객체인 a태그의 위치설정시 기준이됌*/
@@ -1189,7 +1197,7 @@ header ,section ,footer{
         font-size: 2.6vw;
      }
      .s2 .product_title p{
-         font-size: 0.9vw;
+         font-size: 1vw;
          line-height: 3vw;
          font-weight: bold;
      }
